@@ -1,0 +1,22 @@
+---
+title: "Sherryx_OriginalHomeworkCode_03"
+author: "Sherry Xie"
+date: "2025-02-25"
+output: html_document
+---
+
+## Set up
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+#loading ggplot for the figures
+library(ggplot2)
+```
+
+```{r}
+#loading prettydoc for the theme
+#library(prettydoc)
+```
