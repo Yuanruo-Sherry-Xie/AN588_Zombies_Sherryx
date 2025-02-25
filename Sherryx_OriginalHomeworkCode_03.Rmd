@@ -12,8 +12,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
+#download the new package ggpubr first
+#install.packages("ggpubr") for Q-Q plots
+
 #loading ggplot for the figures
 library(ggplot2)
+library(dplyr)
+library(ggpubr)
 ```
 
 ```{r}
@@ -24,3 +29,13 @@ library(ggplot2)
 ## Favorite picture related to zombies that I was able to find online (credit to reddit)
 
 ![](flat,750x,075,f-pad,750x1000,f8f8f8.u2.png){width="300"}
+
+## Load zombie. csv
+
+```{r}
+#loading the initial zombie csv from prof. schimt's repo
+zombie <- read.csv("/Users/sherryxie/CODE/Github/repos/Homework/Sherry's Homework 03/zombies.csv")
+
+#trying to visually understanding the data before I do anything to it 
+str(zombie)
+```
