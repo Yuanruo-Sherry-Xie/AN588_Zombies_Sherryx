@@ -20,3 +20,7 @@ library(ggplot2)
 #loading prettydoc for the theme
 #library(prettydoc)
 ```
+
+## Favorite picture related to zombies that I was able to find online (credit to reddit)
+
+![](flat,750x,075,f-pad,750x1000,f8f8f8.u2.png){width="300"}
