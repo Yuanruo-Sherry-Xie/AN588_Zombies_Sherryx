@@ -16,13 +16,13 @@
 
     -   Peer commentary from – (html)
 
--   My orignial code which incorporates all questions asked in the HW 3 file (STILL WORKING ON IT)
+-   My orignial code which incorporates all questions asked in the HW 3 file
 
--   Each section should be the title/ header before the notes and code are shown (STILL WORKING ON IT)
+-   Each section should be the title/ header before the notes and code are shown
 
--   I have comments in my code sections to help my readers and myself understand what's going on or my thought process in general, let me know if they are confusing (STILL WORKING ON IT)
+-   I have comments in my code sections to help my readers and myself understand what's going on or my thought process in general, let me know if they are confusing
 
--   In my original code is also 5 struggles I encountered while doing homework 3 (STILL WORKING ON IT)
+-   In my original code is also 5 struggles I encountered while doing homework 3
 
 Thank you for reading this!👍
 
