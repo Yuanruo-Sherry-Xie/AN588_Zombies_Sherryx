@@ -40,24 +40,24 @@ zombie <- read.csv("/Users/sherryxie/CODE/Github/repos/Homework/Sherry's Homewor
 str(zombie)
 ```
 
-## 1. Population mean and standard deviation
+## 1. Population mean and standard deviation ERROR
 
 ```{r}
 # Function for population mean and standard deviation since we can not use build in sd and var
-population_stats <- function(zombie) {
-  mean <- mean(zombie, na.rm = TRUE)       # Population mean from the zombie csv
-  sd <- sqrt(sum((x - mu)^2) / length(x))  # Population standard deviation (N, not N-1)
-  return(c(Mean = mean, SD = sd))
-}
+#population_stats <- function(zombie) {
+  #mean <- mean(zombie, na.rm = TRUE)       # Population mean from the zombie csv
+  #sd <- sqrt(sum((x - mu)^2) / length(x))  # Population standard deviation (N, not N-1)
+  #return(c(Mean = mean, SD = sd))
+#}
 
 # Select relevant quantitative variables
-quantitative_variables <- zombie %>% select(height, weight, age, zombies_killed, years_of_education)
+#quantitative_variables <- zombie %>% select(height, weight, age, zombies_killed, years_of_education)
 
 # Apply the function to each quantitative column listed in hw instruction
 # ERROR MESSAGE HERE
-population_stats_results <- sapply(quantitative_variables, population_stats)
+#population_stats_results <- sapply(quantitative_variables, population_stats)
 
-print(population_stats_results)
+#print(population_stats_results)
 ```
 
 ## 2. Boxplot for each quantitative variable by gender
